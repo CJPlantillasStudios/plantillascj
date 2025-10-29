@@ -1,0 +1,19 @@
+{
+  "title": "Spider-Man: Episodio 15",
+  "poster": "https://image.tmdb.org/t/p/original/abc123.jpg",
+  "background": "https://image.tmdb.org/t/p/original/xyz987.jpg",
+  "servers": [
+    {
+      "name": "Latino 1",
+      "embed": "https://filemoon.to/e/kksohs"
+    },
+    {
+      "name": "Latino 2",
+      "embed": "https://vidhidepro.com/e/9usn3k"
+    },
+    {
+      "name": "Latino 3",
+      "embed": "https://voe.sx/e/9sd8n"
+    }
+  ]
+}
