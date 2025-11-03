@@ -1,0 +1,84 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/CJPlantillasStudios/plantillascj/styles.css" rel="stylesheet" /><title>Sool Player Plantillas CJ</title>
+</head>
+ 
+<body class="directAc">
+    <div id="DisplayContent">
+      <div id="PlayerDisplay" style="z-index: 99; background-image: url('https://www.themoviedb.org/t/p/w1280/eYjrjLWIwD6qE148NKHKYcdHKjv.jpg')">
+            <div class="wpw"></div>
+            <div class="SelectLangDisp langclass">
+            </div>
+            <div class="OptionsLangDisp">
+                <div class="ODDIV cyberlockerClass">
+                </div>
+            </div>
+        </div>
+        <div class="FirstLoad"></div>
+        <div class="DisplayVideo"></div>
+    </div>
+
+<script> 
+200875
+
+
+        let player = [
+            {"cyberlocker": "VIP","link":"https://streaming.cinedom.pro/api/tv/200875/1/2","language": "Español-Latino", "quality": "1080p"},
+            {"cyberlocker": "FILMEX","link":"https://streaming.cinedom.pro/api/tv/200875/1/2","language": "Español-Latino", "quality": "1080p"},
+            {"cyberlocker": "streamwish","link":"https://streaming.cinedom.pro/api/tv/200875/1/2","language": "Español-Latino", "quality": "1080p"},
+            {"cyberlocker": "doodstream","link":"https://streaming.cinedom.pro/api/tv/200875/1/2","language": "Español-Latino", "quality": "1080p"},
+            {"cyberlocker": "filemoon","link":"https://streaming.cinedom.pro/api/tv/200875/1/2","language": "Español-Latino", "quality": "1080p"},
+            {"cyberlocker": "voesx","link":"https://streaming.cinedom.pro/api/tv/200875/1/2","language": "Español-Latino", "quality": "1080p"},
+            {"cyberlocker": "streamtape","link":"https://streaming.cinedom.pro/api/tv/200875/1/2","language": "Español-Latino", "quality": "1080p"},
+            {"cyberlocker": "VIP","link":"https://streaming.cinedom.pro/api/tv/200875/1/2","language": "Español-Latino", "quality": "1080p"},
+            {"cyberlocker": "VIP","link":"https://streaming.cinedom.pro/api/tv/200875/1/2","language": "Español-Latino", "quality": "1080p"},
+
+        ];let langs = [
+            {"name": "Peruano", "icon": "PE.png", "display": true, "priority": 1},
+            {"name": "Español-Latino", "icon": "latin_spanish.png", "display": true, "priority":2},
+            {"name": "Español", "icon": "ES.png", "display": true, "priority":3},
+            {"name": "Ingles", "icon": "EN.png", "display": true, "priority":4},
+            {"name": "SUB", "icon": "SUB.png", "display": true, "priority":5},
+            {"name": "Japones", "icon": "JP.png", "display": true, "priority":6},
+            {"name": "Koreano", "icon": "KR.png", "display": true, "priority":7},
+            {"name": "Frances", "icon": "FR.png", "display": true, "priority":8},
+            {"name": "Portugues", "icon": "PR.png", "display": true, "priority":9},
+            {"name": "Argentino", "icon": "AR.png", "display": true, "priority":10},
+            {"name": "Colombiano", "icon": "CO.png", "display": true, "priority":11},
+            {"name": "Brasileño", "icon": "BR.png", "display": true, "priority":12},
+            {"name": "FILMEX", "icon": "FILMEX.png", "display": true, "priority": 13},
+            {"name": "Descargar", "icon": "Dow.png", "display": true, "priority": 14, "default": true },
+            {"name": "Otros", "icon": "other.png", "display": true, "priority": 100, "default": true },
+
+        ];let cyberlockers = [
+            { "name": "VIP", "icon": "vip1.png", "display": true, "priority": 0.9 },
+            { "name": "FILMEX", "icon": "FILMEX.png", "display": true, "priority": 1 },
+            { "name": "streamwish", "icon": "streamwish.to.png", "display": true, "priority": 2 },
+            { "name": "voesx", "icon": "voesx.png", "display": true, "priority": 3 },
+            { "name": "filemoon", "icon": "filemoon.png", "display": true, "priority": 4 },
+            { "name": "doodstream", "icon": "doodstream.png", "display": true, "priority": 5 },
+            { "name": "streamtape", "icon": "streamtape.png", "display": true, "priority": 6 },
+            { "name": "netu", "icon": "netu.png", "display": true, "priority": 7 },
+            { "name": "plustream", "icon": "plustream.com.png", "display": true, "priority": 8 },
+            { "name": "dropload", "icon": "dropload.io.png", "display": true, "priority": 9 },
+            { "name": "rumble", "icon": "rumble.com.png", "display": true, "priority": 10 },
+            { "name": "dailymotion", "icon": "dailymotion.com.png", "display": true, "priority": 11 },
+            { "name": "plustream", "icon": "plustream.com.png", "display": true, "priority": 12 },
+            { "name": "youtube", "icon": "youtube.png", "display": true, "priority": 13 },
+            { "name": "vidhidepro", "icon": "vidhidepro.com.png", "display": true, "priority": 14 },
+            { "name": "gounlimited", "icon": "gounlimited.png", "display": true, "priority": 15 },
+            { "name": "fastream", "icon": "fastream.to.png", "display": true, "priority": 16 },
+            { "name": "goodstream", "icon": "goodstream.one.png", "display": true, "priority": 17 },
+            { "name": "uqload", "icon": "uqload.net.png", "display": true, "priority": 18 },
+            { "name": "Descargar", "icon": "Dow.png", "display": true, "priority": 18 },
+            { "name": "Otros","icon": "otros.png","display": true,"priority": 100,"default": true },
+    ]
+
+</script>
+    <script src="https://cdn.jsdelivr.net/gh/CJPlantillasStudios/plantillascj/op25.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/CJPlantillasStudios/plantillascj/op24.js"></script>
+</body>
+</html>
